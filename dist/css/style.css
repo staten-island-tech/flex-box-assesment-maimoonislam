@@ -3,32 +3,33 @@ html {
 }
 
 #dcbackground {
-  height: 450px;
-  background-color: gray;
+  height: 250px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 0, 0, 0.781)), to(rgba(0, 38, 255, 0.425)));
+  background-image: linear-gradient(to bottom, rgba(240, 0, 0, 0.781), rgba(0, 38, 255, 0.425));
 }
 
 #batmanbackground {
-  height: 450px;
+  height: 550px;
   background-color: black;
 }
 
 #flashbackground {
-  height: 450px;
+  height: 550px;
   background-color: red;
 }
 
 #greenlanternbackground {
-  height: 450px;
+  height: 550px;
   background-color: green;
 }
 
 #supermanbackground {
-  height: 450px;
+  height: 550px;
   background-color: blue;
 }
 
 #wonderwomanbackground {
-  height: 450px;
+  height: 550px;
   background-color: gold;
 }
 /*# sourceMappingURL=style.css.map */
