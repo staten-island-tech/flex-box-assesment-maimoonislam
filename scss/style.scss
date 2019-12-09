@@ -1,4 +1,8 @@
 html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     background-color: black;
 }
 
@@ -13,27 +17,27 @@ html{
 }
 
 #batmanbackground{
-    height: 550px;
+    height: 55rem;
     background-color: black;
 }
 
 #flashbackground{
-    height: 550px;
+    height: 55rem;
     background-color: red;
 }
 
 #greenlanternbackground{
-    height: 550px;
+    height: 55rem;
     background-color: green;  
 }
 
 #supermanbackground{
-    height: 550px;
+    height: 55rem;
     background-color: blue;
 
 }
 
 #wonderwomanbackground{
-    height: 550px;
+    height: 55rem;
     background-color: gold;
 }
