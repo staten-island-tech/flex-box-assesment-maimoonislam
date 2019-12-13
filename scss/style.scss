@@ -7,37 +7,66 @@ html{
 }
 
 #dcbackground{
-    height: 250px;
+    display: flex;
+    justify-content: center;
+    height: 25rem;
     background-image: linear-gradient(
         to bottom,
         rgba(240, 0, 0, 0.781),
-        rgba(0, 38, 255, 0.425)
+        rgba(0, 126, 252, 0.425)
 
     );
 }
-
+.dc-img{
+    height: 25rem;
+}
 #batmanbackground{
+    display: flex;
+    justify-content: flex-end;
     height: 55rem;
     background-color: black;
 }
 
-#flashbackground{
+.batman-img{
     height: 55rem;
-    background-color: red;
 }
 
+
 #greenlanternbackground{
+    display: flex;
+    justify-content: flex-start;
     height: 55rem;
     background-color: green;  
 }
 
+.greenlantern-img{
+    height: 57rem;
+}
+
+#flashbackground{
+    display: flex;
+    justify-content: flex-end;
+    height: 55rem;
+    background-color: red;
+}
+
+.flash-img{
+    height: 52rem;
+}
+
 #supermanbackground{
+    display: flex;
+    justify-content: flex-start;
     height: 55rem;
     background-color: blue;
 
 }
 
+.superman-img{
+    height: 55rem;
+}
+
 #wonderwomanbackground{
     height: 55rem;
-    background-color: gold;
+    background-color: rgb(199, 146, 0)
 }

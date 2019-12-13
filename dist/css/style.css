@@ -1,35 +1,90 @@
 html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   background-color: black;
 }
 
 #dcbackground {
-  height: 250px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 0, 0, 0.781)), to(rgba(0, 38, 255, 0.425)));
-  background-image: linear-gradient(to bottom, rgba(240, 0, 0, 0.781), rgba(0, 38, 255, 0.425));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 25rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 0, 0, 0.781)), to(rgba(0, 126, 252, 0.425)));
+  background-image: linear-gradient(to bottom, rgba(240, 0, 0, 0.781), rgba(0, 126, 252, 0.425));
+}
+
+.dc-img {
+  height: 25rem;
 }
 
 #batmanbackground {
-  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 55rem;
   background-color: black;
 }
 
-#flashbackground {
-  height: 550px;
-  background-color: red;
+.batman-img {
+  height: 55rem;
 }
 
 #greenlanternbackground {
-  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 55rem;
   background-color: green;
 }
 
+.greenlantern-img {
+  height: 57rem;
+}
+
+#flashbackground {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 55rem;
+  background-color: red;
+}
+
+.flash-img {
+  height: 52rem;
+}
+
 #supermanbackground {
-  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 55rem;
   background-color: blue;
 }
 
+.superman-img {
+  height: 55rem;
+}
+
 #wonderwomanbackground {
-  height: 550px;
-  background-color: gold;
+  height: 55rem;
+  background-color: #c79200;
 }
 /*# sourceMappingURL=style.css.map */
