@@ -84,7 +84,17 @@ html {
 }
 
 #wonderwomanbackground {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   height: 55rem;
   background-color: #c79200;
+}
+
+.wonderwoman-img {
+  height: 55rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -24,7 +24,7 @@ html{
     display: flex;
     justify-content: flex-end;
     height: 55rem;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .batman-img{
@@ -67,6 +67,12 @@ html{
 }
 
 #wonderwomanbackground{
+    display: flex;
+    justify-content: flex-end;
     height: 55rem;
     background-color: rgb(199, 146, 0)
+}
+
+.wonderwoman-img{
+    height: 55rem;
 }
