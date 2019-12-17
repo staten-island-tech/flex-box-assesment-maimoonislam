@@ -27,26 +27,37 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   height: 55rem;
-  background-color: black;
+  background-color: #6d6d6d;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.5rem;
 }
 
 .batman-img {
-  height: 55rem;
+  height: 45rem;
+  -webkit-box-align: bottom;
+      -ms-flex-align: bottom;
+          align-items: bottom;
 }
 
 #greenlanternbackground {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 55rem;
   background-color: green;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.5rem;
 }
 
 .greenlantern-img {
@@ -57,11 +68,18 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 55rem;
   background-color: red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.5rem;
 }
 
 .flash-img {
@@ -76,7 +94,11 @@ html {
       -ms-flex-pack: start;
           justify-content: flex-start;
   height: 55rem;
-  background-color: blue;
+  background-color: #4141ff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.5rem;
 }
 
 .superman-img {
@@ -92,6 +114,10 @@ html {
           justify-content: flex-end;
   height: 55rem;
   background-color: #c79200;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3.5rem;
 }
 
 .wonderwoman-img {

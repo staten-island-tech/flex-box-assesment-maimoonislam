@@ -1,78 +1,95 @@
-html{
-    font-size: 62.5%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: black;
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
-#dcbackground{
-    display: flex;
-    justify-content: center;
-    height: 25rem;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(240, 0, 0, 0.781),
-        rgba(0, 126, 252, 0.425)
-
-    );
+#dcbackground {
+  display: flex;
+  justify-content: center;
+  height: 25rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(240, 0, 0, 0.781),
+    rgba(0, 126, 252, 0.425)
+  );
 }
-.dc-img{
-    height: 25rem;
+.dc-img {
+  height: 25rem;
 }
-#batmanbackground{
-    display: flex;
-    justify-content: flex-end;
-    height: 55rem;
-    background-color: rgb(0, 0, 0);
-}
-
-.batman-img{
-    height: 55rem;
+#batmanbackground {
+  display: flex;
+  justify-content: flex-start;
+  height: 55rem;
+  background-color: rgb(109, 109, 109);
+  align-items: center;
+  font-size: 3.5rem;
 }
 
-
-#greenlanternbackground{
-    display: flex;
-    justify-content: flex-start;
-    height: 55rem;
-    background-color: green;  
+.batman-img {
+  height: 45rem;
+  align-items: bottom;
 }
 
-.greenlantern-img{
-    height: 57rem;
+
+#greenlanternbackground {
+  display: flex;
+  justify-content: space-between;
+  height: 55rem;
+  background-color: green;
+  align-items: center;
+  font-size: 3.5rem;
 }
 
-#flashbackground{
-    display: flex;
-    justify-content: flex-end;
-    height: 55rem;
-    background-color: red;
+.greenlantern-img {
+  height: 57rem;
 }
 
-.flash-img{
-    height: 52rem;
+
+
+
+#flashbackground {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 55rem;
+  background-color: red;
+  align-items: center;
+  font-size: 3.5rem;
 }
 
-#supermanbackground{
-    display: flex;
-    justify-content: flex-start;
-    height: 55rem;
-    background-color: blue;
-
+.flash-img {
+  height: 52rem;
 }
 
-.superman-img{
-    height: 55rem;
+
+
+#supermanbackground {
+  display: flex;
+  justify-content: flex-start;
+  height: 55rem;
+  background-color: rgb(65, 65, 255);
+  align-items: center;
+  font-size: 3.5rem;
 }
 
-#wonderwomanbackground{
-    display: flex;
-    justify-content: flex-end;
-    height: 55rem;
-    background-color: rgb(199, 146, 0)
+.superman-img {
+  height: 55rem;
 }
 
-.wonderwoman-img{
-    height: 55rem;
+
+#wonderwomanbackground {
+  display: flex;
+  justify-content: flex-end;
+  height: 55rem;
+  background-color: rgb(199, 146, 0);
+  align-items: center;
+  font-size: 3.5rem;
 }
+
+.wonderwoman-img {
+  height: 55rem;
+}
+
