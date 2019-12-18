@@ -27,9 +27,12 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 55rem;
   background-color: #6d6d6d;
   -webkit-box-align: center;
@@ -49,9 +52,12 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 55rem;
   background-color: green;
   -webkit-box-align: center;
@@ -90,9 +96,12 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 55rem;
   background-color: #4141ff;
   -webkit-box-align: center;
@@ -109,9 +118,12 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 55rem;
   background-color: #c79200;
   -webkit-box-align: center;
@@ -122,5 +134,28 @@ html {
 
 .wonderwoman-img {
   height: 55rem;
+}
+
+.text {
+  font-family: 'Girassol', cursive;
+  font-size: 3rem;
+  text-align: center;
+  border: 3px inset goldenrod;
+  width: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 3rem;
+}
+
+.batmanbackgroundphoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#batman-logo {
+  height: 40rem;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
 }
 /*# sourceMappingURL=style.css.map */
